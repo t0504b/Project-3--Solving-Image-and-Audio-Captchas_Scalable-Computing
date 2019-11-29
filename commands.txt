@@ -1,0 +1,6 @@
+generate.py --width 128 --height 64 --length 5 --symbols symbols.txt --count 100000 --output-dir test
+
+train.py --width 128 --height 64 --length 5 --symbols symbols.txt --batch-size 8 --epochs 5 --output-model test.h5 --train-dataset train --validate-dataset validate
+
+classify.py  --model-name test --captcha-dir stuff --output stuff.csv --symbols symbols.txt
+
