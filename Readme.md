@@ -20,15 +20,15 @@ Steps performed:
 4. Trained and classified the spectrograms in the same way as that of image captchas.
 
 ## Files contained
-generate_audio.py - script to generate sample audio captchas
-audiotospectra.py - convert audio captchas generated to spectrogram
-train.py - script to train the model by inputting part of sample spectrograms that were generated
-test.json - train.py trains the model and gives test.json as the output file that is used for classification
-classify.py - Model trained is used to classify the new set of audio captchas through this script
-trainimage.py - script to train the model by inputting part of sample image captchas that were generated
-testimage.json - trainimage.py trains the model and gives testimage.json as the output file that is used for classification
-classifyimage.py - Model trained is used to classify the new set of image captchas through this script
-commands.txt - set of commands through which above scripts are executed defining batch size and epochs iterated for training and classification
+generate_audio.py - script to generate sample audio captchas  
+audiotospectra.py - convert audio captchas generated to spectrogram  
+train.py - script to train the model by inputting part of sample spectrograms that were generated  
+test.json - train.py trains the model and gives test.json as the output file that is used for classification  
+classify.py - Model trained is used to classify the new set of audio captchas through this script  
+trainimage.py - script to train the model by inputting part of sample image captchas that were generated  
+testimage.json - trainimage.py trains the model and gives testimage.json as the output file that is used for classification  
+classifyimage.py - Model trained is used to classify the new set of image captchas through this script  
+commands.txt - set of commands through which above scripts are executed defining batch size and epochs iterated for training and classification  
 stuff.csv - output file
 
 ###### Keywords
